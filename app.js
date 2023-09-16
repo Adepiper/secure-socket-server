@@ -34,5 +34,5 @@ function sendData(socket) {
 
   setTimeout(() => {
     sendData(socket);
-  }, 5000);
+  }, 7500);
 }
